@@ -1,0 +1,1406 @@
+2025-05-19 21:01:00,529 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:01:00,586 - Error loading model or scaler: [Errno 2] No such file or directory: '/Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:01:35,697 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:01:35,731 - Error loading model or scaler: [Errno 2] No such file or directory: '/Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:04:33,840 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:04:33,901 - Error loading model or scaler: [Errno 2] No such file or directory: '/Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:04:38,979 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:04:39,011 - Error loading model or scaler: [Errno 2] No such file or directory: '/Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:04:43,088 - Error fetching data from Kinesis: Incorrect padding
+2025-05-19 21:09:45,234 - Error fetching data from Kinesis: Incorrect padding
+2025-05-19 21:10:59,391 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:10:59,450 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:11:01,145 - Error processing record: can't concat str to bytes
+2025-05-19 21:11:10,281 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:11:10,317 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:11:14,155 - Error processing record: can't concat str to bytes
+2025-05-19 21:12:42,061 - Error processing record: can't concat str to bytes
+2025-05-19 21:13:07,651 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:13:07,710 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:13:12,103 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:13:12,133 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:14:06,471 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:14:06,530 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:14:19,853 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:14:19,885 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:19:14,161 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:19:14,235 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:19:20,700 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:19:20,740 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:20:16,081 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:20:16,141 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:20:20,985 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:20:21,018 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:28:18,778 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:28:18,839 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:31:08,714 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:31:08,773 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:31:16,024 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:31:16,058 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:31:21,502 - Error processing record: can't concat str to bytes
+2025-05-19 21:34:30,529 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:34:30,591 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:34:31,389 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:34:31,423 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:34:36,476 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:34:36,508 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:34:43,462 - Using TRIM_HORIZON iterator for initial fetch.
+2025-05-19 21:34:43,537 - Error processing record: can't concat str to bytes
+2025-05-19 21:34:52,569 - Using TRIM_HORIZON iterator for initial fetch.
+2025-05-19 21:34:52,643 - Error processing record: can't concat str to bytes
+2025-05-19 21:35:45,682 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:35:45,744 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:35:46,264 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:35:46,296 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:35:51,867 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:35:51,900 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:35:58,377 - Using TRIM_HORIZON iterator for the initial fetch
+2025-05-19 21:35:58,558 - Error processing record: can't concat str to bytes
+2025-05-19 21:36:06,481 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:36:06,517 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:36:14,275 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:36:14,313 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:36:18,252 - Using AFTER_SEQUENCE_NUMBER iterator
+2025-05-19 21:36:18,432 - Error processing record: can't concat str to bytes
+2025-05-19 21:43:58,947 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:43:59,005 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:44:27,819 - Using AFTER_SEQUENCE_NUMBER iterator
+2025-05-19 21:44:28,021 - Error processing record: can't concat str to bytes
+2025-05-19 21:44:28,021 - Error processing record: can't concat str to bytes
+2025-05-19 21:44:28,022 - Error processing record: can't concat str to bytes
+2025-05-19 21:44:28,022 - Error processing record: can't concat str to bytes
+2025-05-19 21:46:21,909 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:46:21,968 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:46:22,472 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:46:22,502 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:46:38,200 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:46:38,236 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:46:40,980 - Using LATEST iterator for real-time fetch
+2025-05-19 21:46:41,086 - No new records in Kinesis
+2025-05-19 21:46:59,416 - Using LATEST iterator for real-time fetch
+2025-05-19 21:46:59,520 - No new records in Kinesis
+2025-05-19 21:47:04,432 - Using LATEST iterator for real-time fetch
+2025-05-19 21:47:04,534 - No new records in Kinesis
+2025-05-19 21:49:04,760 - Using LATEST iterator for real-time fetch
+2025-05-19 21:49:04,866 - No new records in Kinesis
+2025-05-19 21:49:32,374 - Using LATEST iterator for real-time fetch
+2025-05-19 21:49:32,480 - No new records in Kinesis
+2025-05-19 21:50:57,254 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:50:57,314 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:51:02,441 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:51:02,472 - Error loading model or scaler: [Errno 2] No such file or directory: 'Bike Sharing Demand Prediction/bike_rental_counts.pkl'
+2025-05-19 21:51:05,938 - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 21:51:06,197 - Error processing record: can't concat str to bytes
+2025-05-19 21:51:06,198 - Error processing record: can't concat str to bytes
+2025-05-19 21:55:07,142 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:55:08,426 - Model and scaler loaded successfully.
+2025-05-19 21:57:11,600 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:57:12,590 - Model and scaler loaded successfully.
+2025-05-19 21:57:16,515 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:57:17,237 - Model and scaler loaded successfully.
+2025-05-19 21:57:20,229 - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 21:57:20,448 - Error decoding data: can't concat str to bytes
+2025-05-19 21:57:37,605 - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 21:57:37,751 - Error decoding data: can't concat str to bytes
+2025-05-19 21:58:40,983 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:58:41,931 - Model and scaler loaded successfully.
+2025-05-19 21:58:46,858 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 21:58:47,570 - Model and scaler loaded successfully.
+2025-05-19 21:58:51,076 - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 21:58:51,235 - Error decoding data: Incorrect padding
+2025-05-19 22:02:21,423 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:02:22,364 - Model and scaler loaded successfully.
+2025-05-19 22:03:06,553 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:03:08,182 - Model and scaler loaded successfully.
+2025-05-19 22:04:17,571 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:04:18,685 - Model and scaler loaded successfully.
+2025-05-19 22:04:32,728 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:04:33,609 - Model and scaler loaded successfully.
+2025-05-19 22:04:54,928 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:04:56,016 - Model and scaler loaded successfully.
+2025-05-19 22:04:56,546 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:04:57,284 - Model and scaler loaded successfully.
+2025-05-19 22:05:06,752 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 22:05:07,467 - Model and scaler loaded successfully.
+2025-05-19 23:41:04,514 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:41:05,609 - Model and scaler loaded successfully.
+2025-05-19 23:42:00,670 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:42:01,621 - Model and scaler loaded successfully.
+2025-05-19 23:42:02,130 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:42:02,850 - Model and scaler loaded successfully.
+2025-05-19 23:43:44,219 - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:43:44,363 - Error decoding data: Incorrect padding
+2025-05-19 23:46:17,170 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:46:18,270 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:46:18,804 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:46:19,645 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:46:20,179 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:46:20,903 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:46:37,115 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:46:38,041 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:46:47,594 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:46:48,443 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:46:56,518 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:46:56,660 - ERROR - Error decoding data: 'utf-8' codec can't decode byte 0x86 in position 0: invalid start byte
+2025-05-19 23:52:46,244 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:52:47,441 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:52:48,308 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:52:49,169 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:53:02,181 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:53:03,039 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:53:14,190 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:53:14,344 - ERROR - Error processing record: 'utf-8' codec can't decode byte 0x86 in position 0: invalid start byte
+2025-05-19 23:54:50,984 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:54:51,139 - ERROR - Error processing record: 'utf-8' codec can't decode byte 0x86 in position 0: invalid start byte
+2025-05-19 23:55:25,919 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:55:26,878 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:55:27,410 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:55:28,113 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:55:31,994 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:55:32,719 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:55:37,353 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:55:37,589 - ERROR - Error processing record: 'utf-8' codec can't decode byte 0x86 in position 0: invalid start byte
+2025-05-19 23:57:54,804 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:57:55,839 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:57:56,377 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:57:57,117 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:57:57,639 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:57:58,354 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:58:11,426 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:58:12,309 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:59:41,911 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:59:43,021 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:59:43,620 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:59:44,381 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:59:44,898 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:59:45,620 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:59:49,711 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-19 23:59:50,441 - INFO - Model and scaler loaded successfully.
+2025-05-19 23:59:57,868 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-19 23:59:58,055 - ERROR - Error decoding data: Incorrect padding
+2025-05-20 00:00:22,179 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:00:23,131 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:00:26,689 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:00:26,824 - ERROR - Error decoding data: Incorrect padding
+2025-05-20 00:06:46,962 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:06:48,239 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:08:22,790 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:08:23,822 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:08:34,074 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:08:35,105 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:08:44,719 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:08:44,881 - INFO - Raw data from Kinesis: b'{"hour": 10, "temperature": 18.26, "humidity": 89, "wind_speed": 2.29, "visibility": 10000, "solar_radiation": 0.1, "rainfall": 0, "snowfall": 0.0, "weekend": 0, "holiday_status": 0}'
+2025-05-20 00:08:44,881 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:08:44,881 - INFO - Parsed data from Kinesis: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:08:44,887 - ERROR - Error processing record: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+2025-05-20 00:08:44,892 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 188, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+
+2025-05-20 00:10:43,778 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:10:44,868 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:11:14,947 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:11:15,925 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:11:16,459 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:11:17,210 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:11:23,473 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:11:24,220 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:11:35,124 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:11:35,125 - INFO - Using TRIM_HORIZON to get oldest records first
+2025-05-20 00:11:35,441 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:11:35,443 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 00:11:35,443 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:11:35,443 - WARNING - Base64 decoding failed: Incorrect padding, trying direct UTF-8
+2025-05-20 00:11:35,443 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:11:35,443 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:11:35,451 - ERROR - Error processing record: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+2025-05-20 00:11:35,456 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 257, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+
+2025-05-20 00:12:25,963 - INFO - Test JSON payload: {"hour": 12, "temperature": 20.5, "humidity": 65, "wind_speed": 3.2, "visibility": 10000, "solar_radiation": 0.8, "rainfall": 0, "snowfall": 0, "weekend": 0, "holiday_status": 0}
+2025-05-20 00:12:25,963 - INFO - Test base64 encoded payload: b'eyJob3VyIjogMTIsICJ0ZW1wZXJhdHVyZSI6IDIwLjUsICJodW1pZGl0eSI6IDY1LCAid2luZF9zcGVlZCI6IDMuMiwgInZpc2liaWxpdHkiOiAxMDAwMCwgInNvbGFyX3JhZGlhdGlvbiI6IDAuOCwgInJhaW5mYWxsIjogMCwgInNub3dmYWxsIjogMCwgIndlZWtlbmQiOiAwLCAiaG9saWRheV9zdGF0dXMiOiAwfQ=='
+2025-05-20 00:12:26,185 - INFO - Test data sent to Kinesis. Response: {'ShardId': 'shardId-000000000000', 'SequenceNumber': '49663453221960045331559917843230196815707621441904050178', 'ResponseMetadata': {'RequestId': 'e1091819-8c8f-2b97-81af-1b73249198e2', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'e1091819-8c8f-2b97-81af-1b73249198e2', 'x-amz-id-2': 'Rf8eZU+oUxm3T19KxNASZ7da9yn4X3jB2dO9hx/zS5iuOIDhPOVfDgvOvn11hOMi9sWVx8K/MISOir5LR8l+UhOmzTGsih2L', 'date': 'Tue, 20 May 2025 04:12:26 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '110', 'connection': 'keep-alive'}, 'RetryAttempts': 0}}
+2025-05-20 00:14:02,564 - INFO - Sequence number file reset
+2025-05-20 00:14:02,838 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:14:02,838 - INFO - Using TRIM_HORIZON to get oldest records first
+2025-05-20 00:14:03,026 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:14:03,027 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 00:14:03,027 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:14:03,027 - WARNING - Base64 decoding failed: Incorrect padding, trying direct UTF-8
+2025-05-20 00:14:03,027 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:14:03,027 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:14:03,029 - ERROR - Error processing record: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+2025-05-20 00:14:03,029 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 257, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- holiday_status
+- hour
+- humidity
+- rainfall
+- snowfall
+- ...
+Feature names seen at fit time, yet now missing:
+- Holiday_status
+- Hour
+- Humidity(%)
+- Rainfall(mm)
+- Snowfall (cm)
+- ...
+
+
+2025-05-20 00:18:12,667 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:18:13,727 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:18:25,012 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:18:25,973 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:18:26,512 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:18:27,280 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:18:27,817 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:18:28,584 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:19:15,612 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:19:16,550 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:19:22,615 - INFO - Making direct prediction with test data
+2025-05-20 00:19:22,615 - INFO - Test data: {'hour': 12, 'temperature': 20.5, 'humidity': 65, 'wind_speed': 3.2, 'visibility': 10000, 'solar_radiation': 0.8, 'rainfall': 0, 'snowfall': 0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:19:22,621 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind_speed(m/s)', 'Visibility(10m)', 'Solar_Radiation(MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend_Status', 'Holiday_status']
+2025-05-20 00:19:22,621 - ERROR - Error during feature scaling: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Solar_Radiation(MJ/m2)
+- Visibility(10m)
+- Weekend_Status
+- Wind_speed(m/s)
+Feature names seen at fit time, yet now missing:
+- Solar Radiation (MJ/m2)
+- Visibility (10m)
+- Weekend
+- Wind speed (m/s)
+
+2025-05-20 00:19:22,624 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 209, in direct_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Solar_Radiation(MJ/m2)
+- Visibility(10m)
+- Weekend_Status
+- Wind_speed(m/s)
+Feature names seen at fit time, yet now missing:
+- Solar Radiation (MJ/m2)
+- Visibility (10m)
+- Weekend
+- Wind speed (m/s)
+
+
+2025-05-20 00:22:51,724 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:22:52,756 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:23:08,211 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:23:09,097 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:23:16,779 - INFO - Feature names from scaler: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:23:16,786 - INFO - Empty dataframe successfully transformed
+2025-05-20 00:23:26,245 - INFO - Making direct prediction with test data
+2025-05-20 00:23:26,245 - INFO - Test data: {'hour': 12, 'temperature': 20.5, 'humidity': 65, 'wind_speed': 3.2, 'visibility': 10000, 'solar_radiation': 0.8, 'rainfall': 0, 'snowfall': 0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:23:26,248 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:23:26,248 - INFO - Scaled features successfully
+2025-05-20 00:23:26,264 - INFO - Prediction successful: 936
+2025-05-20 00:24:10,127 - INFO - --------------------------------
+2025-05-20 00:24:10,129 - INFO - Starting fetch-prediction process
+2025-05-20 00:24:10,129 - INFO - --------------------------------
+2025-05-20 00:24:10,389 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:24:10,389 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:24:10,391 - INFO - Last sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 00:24:10,391 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:24:10,619 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:24:10,620 - INFO - Processing record with sequence number: 49663453221960045331559913916683864962716136209922392066
+2025-05-20 00:24:10,620 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:24:10,620 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:24:10,620 - INFO - Successfully parsed JSON data: {'hour': 14, 'temperature': 22.5, 'humidity': 55, 'wind_speed': 3.0, 'visibility': 1735, 'solar_radiation': 0.1, 'rainfall': 0.0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 0}
+2025-05-20 00:24:10,625 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:24:10,628 - INFO - Features scaled successfully
+2025-05-20 00:24:10,654 - INFO - Predicted bike count: 392
+2025-05-20 00:27:12,525 - INFO - --------------------------------
+2025-05-20 00:27:12,529 - INFO - Starting fetch-prediction process
+2025-05-20 00:27:12,529 - INFO - --------------------------------
+2025-05-20 00:27:12,812 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:27:12,812 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:27:12,813 - INFO - Last sequence number: 49663453221960045331559913916683864962716136209922392066
+2025-05-20 00:27:12,813 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:27:12,975 - INFO - Retrieved 4 records from Kinesis
+2025-05-20 00:27:12,976 - INFO - Processing record with sequence number: 49663453221960045331559913949145941071008171316077395970
+2025-05-20 00:27:12,976 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:27:12,976 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:27:12,976 - INFO - Successfully parsed JSON data: {'hour': 14, 'temperature': 22.5, 'humidity': 55, 'wind_speed': 3.0, 'visibility': 1735, 'solar_radiation': 0.1, 'rainfall': 0.0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 0}
+2025-05-20 00:27:13,002 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:27:13,014 - INFO - Features scaled successfully
+2025-05-20 00:27:13,059 - INFO - Predicted bike count: 392
+2025-05-20 00:28:24,737 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:28:26,732 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:28:51,232 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:28:52,207 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:29:28,401 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:29:29,924 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:30:09,417 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:30:12,088 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:30:15,491 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:30:18,031 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:30:34,576 - INFO - --------------------------------
+2025-05-20 00:30:34,583 - INFO - Starting fetch-prediction process
+2025-05-20 00:30:34,586 - INFO - --------------------------------
+2025-05-20 00:30:34,934 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:30:34,934 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:30:34,935 - INFO - Last sequence number: 49663453221960045331559913949145941071008171316077395970
+2025-05-20 00:30:34,935 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:30:35,112 - INFO - Retrieved 3 records from Kinesis
+2025-05-20 00:30:35,113 - INFO - Processing record with sequence number: 49663453221960045331559913949673032728360149773688242178
+2025-05-20 00:30:35,113 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:30:35,113 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:30:35,113 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 1}
+2025-05-20 00:30:35,133 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:30:35,140 - INFO - Features scaled successfully
+2025-05-20 00:30:35,188 - INFO - Predicted bike count: 296
+2025-05-20 00:31:04,018 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:31:06,075 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:31:07,466 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:31:08,792 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:31:40,666 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:31:41,756 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:31:42,311 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:31:43,065 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:31:55,196 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 00:31:56,157 - INFO - Model and scaler loaded successfully.
+2025-05-20 00:32:09,464 - INFO - --------------------------------
+2025-05-20 00:32:09,465 - INFO - Starting fetch-prediction process
+2025-05-20 00:32:09,465 - INFO - --------------------------------
+2025-05-20 00:32:09,706 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:32:09,707 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:32:09,707 - INFO - Last sequence number: 49663453221960045331559913949673032728360149773688242178
+2025-05-20 00:32:09,707 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:32:09,984 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 00:32:09,986 - INFO - Processing record with sequence number: 49663453221960045331559913959835263168040726601998008322
+2025-05-20 00:32:09,986 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:32:09,986 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:32:09,986 - INFO - Successfully parsed JSON data: {'hour': 14, 'temperature': 22.5, 'humidity': 55, 'wind_speed': 3.0, 'visibility': 1735, 'solar_radiation': 0.1, 'rainfall': 0.0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 0}
+2025-05-20 00:32:09,993 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:32:09,995 - INFO - Features scaled successfully
+2025-05-20 00:32:10,015 - INFO - Predicted bike count: 392
+2025-05-20 00:32:19,694 - INFO - --------------------------------
+2025-05-20 00:32:19,695 - INFO - Starting fetch-prediction process
+2025-05-20 00:32:19,695 - INFO - --------------------------------
+2025-05-20 00:32:19,923 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:32:19,923 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:32:19,924 - INFO - Last sequence number: 49663453221960045331559913959835263168040726601998008322
+2025-05-20 00:32:19,924 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:32:20,139 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:32:20,139 - INFO - Processing record with sequence number: 49663453221960045331559913960277730018019681086098898946
+2025-05-20 00:32:20,139 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:32:20,139 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:32:20,139 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:32:20,141 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:32:20,143 - INFO - Features scaled successfully
+2025-05-20 00:32:20,152 - INFO - Predicted bike count: 598
+2025-05-20 00:33:13,129 - INFO - --------------------------------
+2025-05-20 00:33:13,130 - INFO - Starting fetch-prediction process
+2025-05-20 00:33:13,130 - INFO - --------------------------------
+2025-05-20 00:33:13,385 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:33:13,386 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:33:13,387 - INFO - Last sequence number: 49663453221960045331559913960277730018019681086098898946
+2025-05-20 00:33:13,387 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:33:13,612 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 00:33:13,613 - INFO - Processing record with sequence number: 49663453221960045331559913995221730833980551193595740162
+2025-05-20 00:33:13,613 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:33:13,613 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:33:13,613 - INFO - Successfully parsed JSON data: {'hour': 14, 'temperature': 22.5, 'humidity': 55, 'wind_speed': 3.0, 'visibility': 1735, 'solar_radiation': 0.1, 'rainfall': 0.0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 0}
+2025-05-20 00:33:13,627 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:33:13,631 - INFO - Features scaled successfully
+2025-05-20 00:33:13,657 - INFO - Predicted bike count: 392
+2025-05-20 00:33:53,841 - INFO - --------------------------------
+2025-05-20 00:33:53,842 - INFO - Starting fetch-prediction process
+2025-05-20 00:33:53,842 - INFO - --------------------------------
+2025-05-20 00:33:54,129 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:33:54,130 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:33:54,131 - INFO - Last sequence number: 49663453221960045331559913995221730833980551193595740162
+2025-05-20 00:33:54,131 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:33:54,266 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:33:54,267 - INFO - Processing record with sequence number: 49663453221960045331559913995792343820838656438934962178
+2025-05-20 00:33:54,267 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:33:54,267 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:33:54,267 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.42, 'humidity': 94, 'wind_speed': 1.97, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:33:54,271 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:33:54,274 - INFO - Features scaled successfully
+2025-05-20 00:33:54,295 - INFO - Predicted bike count: 595
+2025-05-20 00:37:57,760 - INFO - --------------------------------
+2025-05-20 00:37:57,764 - INFO - Starting fetch-prediction process
+2025-05-20 00:37:57,764 - INFO - --------------------------------
+2025-05-20 00:37:58,102 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:37:58,102 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:37:58,103 - INFO - Last sequence number: 49663453221960045331559913995792343820838656438934962178
+2025-05-20 00:37:58,103 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:37:58,442 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:37:58,444 - INFO - Processing record with sequence number: 49663453221960045331559914158464193182363607398617186306
+2025-05-20 00:37:58,444 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:37:58,444 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:37:58,444 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.42, 'humidity': 94, 'wind_speed': 1.97, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:37:58,475 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:37:58,481 - INFO - Features scaled successfully
+2025-05-20 00:37:58,503 - INFO - Predicted bike count: 595
+2025-05-20 00:38:07,004 - INFO - --------------------------------
+2025-05-20 00:38:07,005 - INFO - Starting fetch-prediction process
+2025-05-20 00:38:07,005 - INFO - --------------------------------
+2025-05-20 00:38:07,232 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:38:07,232 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:38:07,233 - INFO - Last sequence number: 49663453221960045331559914158464193182363607398617186306
+2025-05-20 00:38:07,233 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:38:07,401 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 00:38:07,404 - INFO - Processing record with sequence number: 49663453221960045331559914165378039944739674672418783234
+2025-05-20 00:38:07,404 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:38:07,404 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:38:07,404 - INFO - Successfully parsed JSON data: {'hour': 14, 'temperature': 22.5, 'humidity': 55, 'wind_speed': 3.0, 'visibility': 1735, 'solar_radiation': 0.1, 'rainfall': 0.0, 'snowfall': 0.0, 'weekend': 1, 'holiday_status': 0}
+2025-05-20 00:38:07,409 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:38:07,413 - INFO - Features scaled successfully
+2025-05-20 00:38:07,447 - INFO - Predicted bike count: 392
+2025-05-20 00:39:14,375 - INFO - --------------------------------
+2025-05-20 00:39:14,376 - INFO - Starting fetch-prediction process
+2025-05-20 00:39:14,376 - INFO - --------------------------------
+2025-05-20 00:39:14,598 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:39:14,598 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:39:14,599 - INFO - Last sequence number: 49663453221960045331559914165378039944739674672418783234
+2025-05-20 00:39:14,599 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:39:14,786 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:39:14,788 - INFO - Processing record with sequence number: 49663453221960045331559914165860401346765911988004454402
+2025-05-20 00:39:14,788 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:39:14,788 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:39:14,788 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.42, 'humidity': 94, 'wind_speed': 1.97, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:39:14,794 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:39:14,798 - INFO - Features scaled successfully
+2025-05-20 00:39:14,818 - INFO - Predicted bike count: 595
+2025-05-20 00:39:41,915 - INFO - --------------------------------
+2025-05-20 00:39:41,915 - INFO - Starting fetch-prediction process
+2025-05-20 00:39:41,915 - INFO - --------------------------------
+2025-05-20 00:39:42,166 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:39:42,167 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:39:42,167 - INFO - Last sequence number: 49663453221960045331559914165860401346765911988004454402
+2025-05-20 00:39:42,167 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:39:42,317 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:39:42,318 - INFO - Processing record with sequence number: 49663453221960045331559914311572230384917230461892165634
+2025-05-20 00:39:42,318 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:39:42,318 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:39:42,318 - INFO - Successfully parsed JSON data: {'hour': 7, 'temperature': 17.42, 'humidity': 94, 'wind_speed': 1.97, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:39:42,320 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:39:42,322 - INFO - Features scaled successfully
+2025-05-20 00:39:42,340 - INFO - Predicted bike count: 811
+2025-05-20 00:41:21,431 - INFO - --------------------------------
+2025-05-20 00:41:21,432 - INFO - Starting fetch-prediction process
+2025-05-20 00:41:21,432 - INFO - --------------------------------
+2025-05-20 00:41:21,674 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:41:21,674 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:41:21,675 - INFO - Last sequence number: 49663453221960045331559914311572230384917230461892165634
+2025-05-20 00:41:21,675 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:41:21,883 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:41:21,884 - INFO - Processing record with sequence number: 49663453221960045331559914493273781072996058642149015554
+2025-05-20 00:41:21,884 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:41:21,885 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:41:21,885 - INFO - Successfully parsed JSON data: {'hour': 7, 'temperature': 17.42, 'humidity': 94, 'wind_speed': 1.97, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:41:21,895 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:41:21,899 - INFO - Features scaled successfully
+2025-05-20 00:41:21,929 - INFO - Predicted bike count: 811
+2025-05-20 00:41:34,365 - INFO - --------------------------------
+2025-05-20 00:41:34,366 - INFO - Starting fetch-prediction process
+2025-05-20 00:41:34,366 - INFO - --------------------------------
+2025-05-20 00:41:34,602 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:41:34,602 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:41:34,603 - INFO - Last sequence number: 49663453221960045331559914493273781072996058642149015554
+2025-05-20 00:41:34,603 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:41:34,781 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:41:34,782 - INFO - Processing record with sequence number: 49663453221960045331559915524778856326802337796221566978
+2025-05-20 00:41:34,782 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:41:34,782 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:41:34,782 - INFO - Successfully parsed JSON data: {'hour': 9, 'temperature': 19.13, 'humidity': 92, 'wind_speed': 1.89, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:41:34,784 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:41:34,786 - INFO - Features scaled successfully
+2025-05-20 00:41:34,803 - INFO - Predicted bike count: 781
+2025-05-20 00:43:57,145 - INFO - --------------------------------
+2025-05-20 00:43:57,145 - INFO - Starting fetch-prediction process
+2025-05-20 00:43:57,146 - INFO - --------------------------------
+2025-05-20 00:43:57,392 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:43:57,393 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:43:57,395 - INFO - Last sequence number: 49663453221960045331559915524778856326802337796221566978
+2025-05-20 00:43:57,395 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:43:57,575 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:43:57,577 - INFO - Processing record with sequence number: 49663453221960045331559915722892783941969382922283646978
+2025-05-20 00:43:57,577 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:43:57,578 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:43:57,578 - INFO - Successfully parsed JSON data: {'hour': 9, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:43:57,584 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:43:57,588 - INFO - Features scaled successfully
+2025-05-20 00:43:57,607 - INFO - Predicted bike count: 789
+2025-05-20 00:48:49,544 - INFO - --------------------------------
+2025-05-20 00:48:49,546 - INFO - Starting fetch-prediction process
+2025-05-20 00:48:49,546 - INFO - --------------------------------
+2025-05-20 00:48:50,047 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:48:50,048 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:48:50,048 - INFO - Last sequence number: 49663453221960045331559915722892783941969382922283646978
+2025-05-20 00:48:50,048 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:48:50,361 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:48:50,362 - INFO - Processing record with sequence number: 49663453221960045331559915871386351291053969037045268482
+2025-05-20 00:48:50,362 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:48:50,362 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:48:50,362 - INFO - Successfully parsed JSON data: {'hour': 9, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:48:50,381 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:48:50,386 - INFO - Features scaled successfully
+2025-05-20 00:48:50,404 - INFO - Predicted bike count: 789
+2025-05-20 00:48:50,410 - INFO - --------------------------------
+2025-05-20 00:48:50,410 - INFO - Starting fetch-prediction process
+2025-05-20 00:48:50,410 - INFO - --------------------------------
+2025-05-20 00:48:50,463 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:48:50,463 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:48:50,463 - INFO - Last sequence number: 49663453221960045331559915871386351291053969037045268482
+2025-05-20 00:48:50,463 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:48:50,639 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:48:50,639 - INFO - Processing record with sequence number: 49663453221960045331559916007516234282939734541908049922
+2025-05-20 00:48:50,639 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:48:50,639 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:48:50,639 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:48:50,640 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:48:50,641 - INFO - Features scaled successfully
+2025-05-20 00:48:50,651 - INFO - Predicted bike count: 526
+2025-05-20 00:49:46,047 - INFO - --------------------------------
+2025-05-20 00:49:46,048 - INFO - Starting fetch-prediction process
+2025-05-20 00:49:46,048 - INFO - --------------------------------
+2025-05-20 00:49:46,298 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:49:46,298 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:49:46,299 - INFO - Last sequence number: 49663453221960045331559916007516234282939734541908049922
+2025-05-20 00:49:46,299 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:49:46,482 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:49:46,483 - INFO - Processing record with sequence number: 49663453221960045331559916082237521341680767351337779202
+2025-05-20 00:49:46,483 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:49:46,483 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:49:46,483 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:49:46,490 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:49:46,495 - INFO - Features scaled successfully
+2025-05-20 00:49:46,520 - INFO - Predicted bike count: 526
+2025-05-20 00:49:54,370 - INFO - --------------------------------
+2025-05-20 00:49:54,371 - INFO - Starting fetch-prediction process
+2025-05-20 00:49:54,371 - INFO - --------------------------------
+2025-05-20 00:49:54,589 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 00:49:54,589 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 00:49:54,590 - INFO - Last sequence number: 49663453221960045331559916082237521341680767351337779202
+2025-05-20 00:49:54,590 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 00:49:54,773 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 00:49:54,774 - INFO - Processing record with sequence number: 49663453221960045331559916097418002858581670158730788866
+2025-05-20 00:49:54,775 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 00:49:54,775 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 00:49:54,775 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 00:49:54,777 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 00:49:54,778 - INFO - Features scaled successfully
+2025-05-20 00:49:54,795 - INFO - Predicted bike count: 526
+2025-05-20 01:52:00,169 - INFO - --------------------------------
+2025-05-20 01:52:00,171 - INFO - Starting fetch-prediction process
+2025-05-20 01:52:00,171 - INFO - --------------------------------
+2025-05-20 01:52:00,563 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 01:52:00,563 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 01:52:00,564 - INFO - Last sequence number: 49663453221960045331559916097418002858581670158730788866
+2025-05-20 01:52:00,564 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 01:52:00,749 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 01:52:00,750 - INFO - Processing record with sequence number: 49663453221960045331559916112839060613585883965731897346
+2025-05-20 01:52:00,750 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 01:52:00,751 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 01:52:00,751 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 01:52:00,774 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 01:52:00,783 - INFO - Features scaled successfully
+2025-05-20 01:52:00,804 - INFO - Predicted bike count: 526
+2025-05-20 11:42:59,453 - INFO - --------------------------------
+2025-05-20 11:42:59,454 - INFO - Starting fetch-prediction process
+2025-05-20 11:42:59,455 - INFO - --------------------------------
+2025-05-20 11:42:59,693 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:42:59,693 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:42:59,699 - INFO - Last sequence number: 49663453221960045331559916112839060613585883965731897346
+2025-05-20 11:42:59,699 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:42:59,915 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:42:59,915 - INFO - Processing record with sequence number: 49663453221960045331559916128313311104653141662578507778
+2025-05-20 11:42:59,916 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:42:59,916 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:42:59,916 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:42:59,939 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:42:59,945 - INFO - Features scaled successfully
+2025-05-20 11:42:59,970 - INFO - Predicted bike count: 526
+2025-05-20 11:43:05,817 - INFO - --------------------------------
+2025-05-20 11:43:05,820 - INFO - Starting fetch-prediction process
+2025-05-20 11:43:05,820 - INFO - --------------------------------
+2025-05-20 11:43:06,715 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:43:06,716 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:43:06,716 - INFO - Last sequence number: 49663453221960045331559916128313311104653141662578507778
+2025-05-20 11:43:06,716 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:43:06,897 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:43:06,897 - INFO - Processing record with sequence number: 49663453221960045331559916143650952978103946125244366850
+2025-05-20 11:43:06,898 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:43:06,898 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:43:06,898 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:43:06,904 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:43:06,909 - INFO - Features scaled successfully
+2025-05-20 11:43:06,930 - INFO - Predicted bike count: 526
+2025-05-20 11:43:21,615 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:43:22,975 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:43:25,181 - INFO - --------------------------------
+2025-05-20 11:43:25,181 - INFO - Starting fetch-prediction process
+2025-05-20 11:43:25,181 - INFO - --------------------------------
+2025-05-20 11:43:25,452 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:43:25,452 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:43:25,453 - INFO - Last sequence number: 49663453221960045331559916143650952978103946125244366850
+2025-05-20 11:43:25,453 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:43:25,630 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:43:25,631 - INFO - Processing record with sequence number: 49663453221960045331559916159102233878598525799052083202
+2025-05-20 11:43:25,631 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:43:25,631 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:43:25,631 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:43:25,636 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:43:25,638 - INFO - Features scaled successfully
+2025-05-20 11:43:25,665 - INFO - Predicted bike count: 526
+2025-05-20 11:43:35,840 - INFO - --------------------------------
+2025-05-20 11:43:35,840 - INFO - Starting fetch-prediction process
+2025-05-20 11:43:35,841 - INFO - --------------------------------
+2025-05-20 11:43:36,077 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:43:36,077 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:43:36,078 - INFO - Last sequence number: 49663453221960045331559916159102233878598525799052083202
+2025-05-20 11:43:36,078 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:43:36,272 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:43:36,274 - INFO - Processing record with sequence number: 49663453221960045331559916174574066518026554100110327810
+2025-05-20 11:43:36,274 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:43:36,274 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:43:36,274 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:43:36,276 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:43:36,279 - INFO - Features scaled successfully
+2025-05-20 11:43:36,296 - INFO - Predicted bike count: 526
+2025-05-20 11:44:59,367 - INFO - --------------------------------
+2025-05-20 11:44:59,368 - INFO - Starting fetch-prediction process
+2025-05-20 11:44:59,368 - INFO - --------------------------------
+2025-05-20 11:44:59,641 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:44:59,642 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:44:59,643 - INFO - Last sequence number: 49663453221960045331559916174574066518026554100110327810
+2025-05-20 11:44:59,644 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:44:59,836 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:44:59,838 - INFO - Processing record with sequence number: 49663453221960045331559916186639146197780557455566045186
+2025-05-20 11:44:59,838 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:44:59,838 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:44:59,838 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:44:59,856 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:44:59,862 - INFO - Features scaled successfully
+2025-05-20 11:44:59,884 - INFO - Predicted bike count: 526
+2025-05-20 11:45:24,707 - INFO - --------------------------------
+2025-05-20 11:45:24,708 - INFO - Starting fetch-prediction process
+2025-05-20 11:45:24,708 - INFO - --------------------------------
+2025-05-20 11:45:24,967 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:45:24,968 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:45:24,969 - INFO - Last sequence number: 49663453221960045331559916186639146197780557455566045186
+2025-05-20 11:45:24,969 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:45:25,138 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:45:25,139 - INFO - Processing record with sequence number: 49663453221960045331559916195767745061690626545660461058
+2025-05-20 11:45:25,139 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:45:25,139 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:45:25,139 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:45:25,145 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:45:25,149 - INFO - Features scaled successfully
+2025-05-20 11:45:25,171 - INFO - Predicted bike count: 526
+2025-05-20 11:45:28,573 - INFO - --------------------------------
+2025-05-20 11:45:28,574 - INFO - Starting fetch-prediction process
+2025-05-20 11:45:28,574 - INFO - --------------------------------
+2025-05-20 11:45:28,628 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:45:28,628 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:45:28,629 - INFO - Last sequence number: 49663453221960045331559916195767745061690626545660461058
+2025-05-20 11:45:28,629 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:45:28,759 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:45:28,760 - INFO - Processing record with sequence number: 49663453221960045331559916205111532721492099560133099522
+2025-05-20 11:45:28,760 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:45:28,760 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:45:28,760 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:45:28,762 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:45:28,764 - INFO - Features scaled successfully
+2025-05-20 11:45:28,782 - INFO - Predicted bike count: 526
+2025-05-20 11:46:29,046 - INFO - --------------------------------
+2025-05-20 11:46:29,048 - INFO - Starting fetch-prediction process
+2025-05-20 11:46:29,048 - INFO - --------------------------------
+2025-05-20 11:46:29,305 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:46:29,305 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:46:29,307 - INFO - Last sequence number: 49663453221960045331559916205111532721492099560133099522
+2025-05-20 11:46:29,307 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:46:29,517 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:46:29,518 - INFO - Processing record with sequence number: 49663453221960045331559916214272772582531763637944582146
+2025-05-20 11:46:29,518 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:46:29,518 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:46:29,518 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:46:29,525 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:46:29,528 - INFO - Features scaled successfully
+2025-05-20 11:46:29,545 - INFO - Predicted bike count: 526
+2025-05-20 11:48:00,508 - INFO - --------------------------------
+2025-05-20 11:48:00,509 - INFO - Starting fetch-prediction process
+2025-05-20 11:48:00,509 - INFO - --------------------------------
+2025-05-20 11:48:00,738 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:48:00,738 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:48:00,739 - INFO - Last sequence number: 49663453221960045331559916214272772582531763637944582146
+2025-05-20 11:48:00,739 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:48:00,957 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:48:00,958 - INFO - Processing record with sequence number: 49663453221960045331559916223417087482096822838590701570
+2025-05-20 11:48:00,958 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:48:00,958 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:48:00,958 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:48:00,963 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:48:00,967 - INFO - Features scaled successfully
+2025-05-20 11:48:00,984 - INFO - Predicted bike count: 526
+2025-05-20 11:48:22,157 - INFO - --------------------------------
+2025-05-20 11:48:22,158 - INFO - Starting fetch-prediction process
+2025-05-20 11:48:22,158 - INFO - --------------------------------
+2025-05-20 11:48:22,419 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:48:22,419 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:48:22,421 - INFO - Last sequence number: 49663453221960045331559916223417087482096822838590701570
+2025-05-20 11:48:22,421 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:48:22,623 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:48:22,624 - INFO - Processing record with sequence number: 49663453221960045331559916232514254274696911570142756866
+2025-05-20 11:48:22,625 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:48:22,625 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:48:22,625 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:48:22,630 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:48:22,634 - INFO - Features scaled successfully
+2025-05-20 11:48:22,652 - INFO - Predicted bike count: 526
+2025-05-20 11:49:08,382 - INFO - --------------------------------
+2025-05-20 11:49:08,383 - INFO - Starting fetch-prediction process
+2025-05-20 11:49:08,383 - INFO - --------------------------------
+2025-05-20 11:49:08,616 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:49:08,616 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:49:08,618 - INFO - Last sequence number: 49663453221960045331559916232514254274696911570142756866
+2025-05-20 11:49:08,618 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:49:08,878 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:49:08,879 - INFO - Processing record with sequence number: 49663453221960045331559916241816938456631487192675385346
+2025-05-20 11:49:08,879 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:49:08,879 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:49:08,879 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:49:08,885 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:49:08,889 - INFO - Features scaled successfully
+2025-05-20 11:49:08,915 - INFO - Predicted bike count: 526
+2025-05-20 11:49:15,239 - INFO - --------------------------------
+2025-05-20 11:49:15,239 - INFO - Starting fetch-prediction process
+2025-05-20 11:49:15,239 - INFO - --------------------------------
+2025-05-20 11:49:15,511 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:49:15,511 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:49:15,512 - INFO - Last sequence number: 49663453221960045331559916241816938456631487192675385346
+2025-05-20 11:49:15,512 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:49:15,918 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:49:15,919 - INFO - Processing record with sequence number: 49663453221960045331559916250877837474643137048986255362
+2025-05-20 11:49:15,919 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:49:15,919 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:49:15,920 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:49:15,922 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:49:15,924 - INFO - Features scaled successfully
+2025-05-20 11:49:15,942 - INFO - Predicted bike count: 526
+2025-05-20 11:50:57,519 - INFO - --------------------------------
+2025-05-20 11:50:57,520 - INFO - Starting fetch-prediction process
+2025-05-20 11:50:57,520 - INFO - --------------------------------
+2025-05-20 11:50:57,746 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:50:57,746 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:50:57,748 - INFO - Last sequence number: 49663453221960045331559916250877837474643137048986255362
+2025-05-20 11:50:57,748 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:50:57,977 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:50:57,979 - INFO - Processing record with sequence number: 49663453221960045331559916259878290201674055377842339842
+2025-05-20 11:50:57,979 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:50:57,979 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:50:57,979 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:50:57,983 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:50:57,986 - INFO - Features scaled successfully
+2025-05-20 11:50:58,002 - INFO - Predicted bike count: 526
+2025-05-20 11:53:03,049 - INFO - --------------------------------
+2025-05-20 11:53:03,050 - INFO - Starting fetch-prediction process
+2025-05-20 11:53:03,050 - INFO - --------------------------------
+2025-05-20 11:53:03,294 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:53:03,294 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:53:03,295 - INFO - Last sequence number: 49663453221960045331559916259878290201674055377842339842
+2025-05-20 11:53:03,295 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:53:03,503 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 11:53:03,504 - INFO - Processing record with sequence number: 49663453221960045331559916269072171059843314443370889218
+2025-05-20 11:53:03,505 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:53:03,505 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:53:03,505 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:53:03,511 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:53:03,514 - INFO - Features scaled successfully
+2025-05-20 11:53:03,535 - INFO - Predicted bike count: 526
+2025-05-20 11:53:09,029 - INFO - --------------------------------
+2025-05-20 11:53:09,030 - INFO - Starting fetch-prediction process
+2025-05-20 11:53:09,030 - INFO - --------------------------------
+2025-05-20 11:53:09,090 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:53:09,090 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 11:53:09,090 - INFO - Last sequence number: 49663453221960045331559916269072171059843314443370889218
+2025-05-20 11:53:09,090 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 11:53:09,222 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 11:53:09,223 - INFO - Processing record with sequence number: 49663453221960045331559916278522344191770874825217671170
+2025-05-20 11:53:09,223 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:53:09,223 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:53:09,223 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:53:09,231 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 11:53:09,243 - INFO - Features scaled successfully
+2025-05-20 11:53:09,272 - INFO - Predicted bike count: 526
+2025-05-20 11:54:52,543 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:54:53,745 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:55:39,274 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:55:40,218 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:55:41,947 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:55:42,672 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:55:45,956 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:55:46,762 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:56:02,100 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:56:03,022 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:56:10,573 - INFO - --------------------------------
+2025-05-20 11:56:10,574 - INFO - Starting fetch-prediction process
+2025-05-20 11:56:10,574 - INFO - --------------------------------
+2025-05-20 11:56:10,865 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:56:10,865 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:56:11,009 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:56:11,009 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:56:11,195 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:56:11,195 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:56:11,195 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:56:11,195 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:56:11,195 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:56:11,196 - ERROR - Error processing record data: name 'datetime' is not defined
+2025-05-20 11:56:11,201 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 399, in fetch_latest_prediction
+    data["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+
+2025-05-20 11:56:11,202 - INFO - No valid prediction could be made from available records
+2025-05-20 11:56:21,720 - INFO - --------------------------------
+2025-05-20 11:56:21,721 - INFO - Starting fetch-prediction process
+2025-05-20 11:56:21,721 - INFO - --------------------------------
+2025-05-20 11:56:21,981 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:56:21,982 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:56:22,124 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:56:22,124 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:56:22,289 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:56:22,290 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:56:22,290 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:56:22,290 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:56:22,290 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:56:22,290 - ERROR - Error processing record data: name 'datetime' is not defined
+2025-05-20 11:56:22,294 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 399, in fetch_latest_prediction
+    data["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+
+2025-05-20 11:56:22,295 - INFO - No valid prediction could be made from available records
+2025-05-20 11:56:22,303 - INFO - --------------------------------
+2025-05-20 11:56:22,303 - INFO - Starting fetch-prediction process
+2025-05-20 11:56:22,303 - INFO - --------------------------------
+2025-05-20 11:56:22,361 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:56:22,361 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:56:22,502 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:56:22,503 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:56:22,660 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:56:22,661 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:56:22,661 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:56:22,661 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:56:22,661 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:56:22,661 - ERROR - Error processing record data: name 'datetime' is not defined
+2025-05-20 11:56:22,665 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 399, in fetch_latest_prediction
+    data["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+
+2025-05-20 11:56:22,665 - INFO - No valid prediction could be made from available records
+2025-05-20 11:58:45,253 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:58:46,244 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:58:46,777 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:58:47,550 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:59:05,313 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 11:59:06,217 - INFO - Model and scaler loaded successfully.
+2025-05-20 11:59:09,144 - INFO - --------------------------------
+2025-05-20 11:59:09,144 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:09,144 - INFO - --------------------------------
+2025-05-20 11:59:09,429 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:09,430 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:09,566 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:09,567 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:09,791 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:09,791 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:09,791 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:09,792 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:09,792 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:09,792 - INFO - Added timestamp to data
+2025-05-20 11:59:09,798 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:09,799 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:09,804 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:09,804 - INFO - No valid prediction could be made from available records
+2025-05-20 11:59:13,284 - INFO - --------------------------------
+2025-05-20 11:59:13,284 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:13,284 - INFO - --------------------------------
+2025-05-20 11:59:13,340 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:13,340 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:13,467 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:13,467 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:13,615 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:13,615 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:13,615 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:13,615 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:13,616 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:13,616 - INFO - Added timestamp to data
+2025-05-20 11:59:13,619 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:13,619 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:13,620 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:13,620 - INFO - No valid prediction could be made from available records
+2025-05-20 11:59:14,188 - INFO - --------------------------------
+2025-05-20 11:59:14,188 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:14,188 - INFO - --------------------------------
+2025-05-20 11:59:14,251 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:14,251 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:14,369 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:14,369 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:14,519 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:14,520 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:14,520 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:14,520 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:14,520 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:14,520 - INFO - Added timestamp to data
+2025-05-20 11:59:14,523 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:14,523 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:14,524 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:14,524 - INFO - No valid prediction could be made from available records
+2025-05-20 11:59:14,534 - INFO - --------------------------------
+2025-05-20 11:59:14,534 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:14,534 - INFO - --------------------------------
+2025-05-20 11:59:14,588 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:14,589 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:14,709 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:14,710 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:14,901 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:14,902 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:14,902 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:14,902 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:14,902 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:14,902 - INFO - Added timestamp to data
+2025-05-20 11:59:14,904 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:14,904 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:14,905 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:14,906 - INFO - No valid prediction could be made from available records
+2025-05-20 11:59:18,563 - INFO - --------------------------------
+2025-05-20 11:59:18,563 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:18,563 - INFO - --------------------------------
+2025-05-20 11:59:18,620 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:18,621 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:18,739 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:18,739 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:18,894 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:18,894 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:18,894 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:18,894 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:18,895 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:18,895 - INFO - Added timestamp to data
+2025-05-20 11:59:18,898 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:18,898 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:18,900 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:18,900 - INFO - No valid prediction could be made from available records
+2025-05-20 11:59:18,910 - INFO - --------------------------------
+2025-05-20 11:59:18,910 - INFO - Starting fetch-prediction process
+2025-05-20 11:59:18,910 - INFO - --------------------------------
+2025-05-20 11:59:18,967 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 11:59:18,967 - INFO - Using LATEST iterator to get newest records
+2025-05-20 11:59:19,091 - INFO - Retrieved 0 records from LATEST
+2025-05-20 11:59:19,091 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 11:59:19,244 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 11:59:19,244 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 11:59:19,244 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 11:59:19,244 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 11:59:19,244 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 11:59:19,244 - INFO - Added timestamp to data
+2025-05-20 11:59:19,245 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 11:59:19,245 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 11:59:19,246 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 11:59:19,246 - INFO - No valid prediction could be made from available records
+2025-05-20 12:00:29,522 - INFO - --------------------------------
+2025-05-20 12:00:29,524 - INFO - Starting fetch-prediction process
+2025-05-20 12:00:29,524 - INFO - --------------------------------
+2025-05-20 12:00:29,801 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:00:29,802 - INFO - Using LATEST iterator to get newest records
+2025-05-20 12:00:29,930 - INFO - Retrieved 0 records from LATEST
+2025-05-20 12:00:29,931 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 12:00:30,104 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 12:00:30,105 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 12:00:30,105 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:00:30,105 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:00:30,105 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:00:30,105 - INFO - Added timestamp to data
+2025-05-20 12:00:30,112 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 12:00:30,113 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 12:00:30,115 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 12:00:30,115 - INFO - No valid prediction could be made from available records
+2025-05-20 12:00:30,124 - INFO - --------------------------------
+2025-05-20 12:00:30,124 - INFO - Starting fetch-prediction process
+2025-05-20 12:00:30,124 - INFO - --------------------------------
+2025-05-20 12:00:30,181 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:00:30,181 - INFO - Using LATEST iterator to get newest records
+2025-05-20 12:00:30,302 - INFO - Retrieved 0 records from LATEST
+2025-05-20 12:00:30,303 - INFO - No records found with LATEST, trying TRIM_HORIZON
+2025-05-20 12:00:30,460 - INFO - Retrieved 1 records with TRIM_HORIZON
+2025-05-20 12:00:30,461 - INFO - Processing record with sequence number: 49663453221960045331559913826500416671103996530878578690
+2025-05-20 12:00:30,461 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:00:30,461 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:00:30,461 - INFO - Successfully parsed JSON data: {'hour': 6, 'temperature': 17.31, 'humidity': 94, 'wind_speed': 2.32, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:00:30,461 - INFO - Added timestamp to data
+2025-05-20 12:00:30,464 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status', 'timestamp']
+2025-05-20 12:00:30,464 - ERROR - Error processing record data: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+2025-05-20 12:00:30,465 - ERROR - Traceback (most recent call last):
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/main.py", line 411, in fetch_latest_prediction
+    scaled_features = scaler.transform(df)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1062, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/Users/kumarbaibhav/Downloads/Bike Sharing Demand Prediction/bike_rental_venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- timestamp
+
+
+2025-05-20 12:00:30,465 - INFO - No valid prediction could be made from available records
+2025-05-20 12:03:12,833 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 12:03:14,019 - INFO - Model and scaler loaded successfully.
+2025-05-20 12:03:28,716 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 12:03:29,677 - INFO - Model and scaler loaded successfully.
+2025-05-20 12:03:46,566 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 12:03:47,498 - INFO - Model and scaler loaded successfully.
+2025-05-20 12:03:51,179 - INFO - --------------------------------
+2025-05-20 12:03:51,179 - INFO - Starting fetch-prediction process
+2025-05-20 12:03:51,179 - INFO - --------------------------------
+2025-05-20 12:03:51,437 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:03:51,438 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 12:03:51,438 - INFO - Last sequence number: 49663453221960045331559916278522344191770874825217671170
+2025-05-20 12:03:51,438 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 12:03:51,624 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 12:03:51,626 - INFO - Processing record with sequence number: 49663453221960045331559916287740403566332426474240344066
+2025-05-20 12:03:51,626 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:03:51,626 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:03:51,626 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:03:51,638 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 12:03:51,642 - INFO - Features scaled successfully
+2025-05-20 12:03:51,660 - INFO - Predicted bike count: 526
+2025-05-20 12:03:53,312 - INFO - --------------------------------
+2025-05-20 12:03:53,312 - INFO - Starting fetch-prediction process
+2025-05-20 12:03:53,312 - INFO - --------------------------------
+2025-05-20 12:03:53,372 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:03:53,372 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 12:03:53,373 - INFO - Last sequence number: 49663453221960045331559916287740403566332426474240344066
+2025-05-20 12:03:53,373 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 12:03:53,506 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 12:03:53,508 - INFO - Processing record with sequence number: 49663453221960045331559916296632052969598028246092349442
+2025-05-20 12:03:53,508 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:03:53,508 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:03:53,508 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:03:53,510 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 12:03:53,512 - INFO - Features scaled successfully
+2025-05-20 12:03:53,529 - INFO - Predicted bike count: 526
+2025-05-20 12:10:42,886 - INFO - --------------------------------
+2025-05-20 12:10:42,888 - INFO - Starting fetch-prediction process
+2025-05-20 12:10:42,888 - INFO - --------------------------------
+2025-05-20 12:10:43,159 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:10:43,159 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 12:10:43,160 - INFO - Last sequence number: 49663453221960045331559916296632052969598028246092349442
+2025-05-20 12:10:43,161 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 12:10:43,425 - INFO - Retrieved 2 records from Kinesis
+2025-05-20 12:10:43,427 - INFO - Processing record with sequence number: 49663453221960045331559916305338736722462591685494833154
+2025-05-20 12:10:43,427 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:10:43,427 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:10:43,427 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:10:43,450 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 12:10:43,456 - INFO - Features scaled successfully
+2025-05-20 12:10:43,474 - INFO - Predicted bike count: 526
+2025-05-20 12:10:46,506 - INFO - --------------------------------
+2025-05-20 12:10:46,506 - INFO - Starting fetch-prediction process
+2025-05-20 12:10:46,506 - INFO - --------------------------------
+2025-05-20 12:10:46,571 - INFO - Found shard ID: shardId-000000000000
+2025-05-20 12:10:46,571 - INFO - All shards in stream: ['shardId-000000000000']
+2025-05-20 12:10:46,571 - INFO - Last sequence number: 49663453221960045331559916305338736722462591685494833154
+2025-05-20 12:10:46,572 - INFO - Using AFTER_SEQUENCE_NUMBER iterator for continuity
+2025-05-20 12:10:46,703 - INFO - Retrieved 1 records from Kinesis
+2025-05-20 12:10:46,704 - INFO - Processing record with sequence number: 49663453221960045331559916314571303206859518815894503426
+2025-05-20 12:10:46,704 - INFO - Raw data type: <class 'bytes'>
+2025-05-20 12:10:46,704 - INFO - Successfully decoded data directly as UTF-8
+2025-05-20 12:10:46,704 - INFO - Successfully parsed JSON data: {'hour': 10, 'temperature': 18.26, 'humidity': 89, 'wind_speed': 2.29, 'visibility': 10000, 'solar_radiation': 0.1, 'rainfall': 0, 'snowfall': 0.0, 'weekend': 0, 'holiday_status': 0}
+2025-05-20 12:10:46,706 - INFO - Renamed columns DataFrame: ['Hour', 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Weekend', 'Holiday_status']
+2025-05-20 12:10:46,709 - INFO - Features scaled successfully
+2025-05-20 12:10:46,726 - INFO - Predicted bike count: 526
+2025-05-20 17:46:43,364 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-20 17:46:44,825 - INFO - Model and scaler loaded successfully.
