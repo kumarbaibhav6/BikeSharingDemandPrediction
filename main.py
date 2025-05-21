@@ -6,6 +6,8 @@ import base64
 import joblib
 import logging
 import os
+import datetime
+import time
 from pydantic import BaseModel
 
 # Set up logging
@@ -35,17 +37,17 @@ try:
 except Exception as e:
     logger.error("Error loading model or scaler: %s", str(e))
 
-# Define the correct column mapping - UPDATED with corrected names
+# Define the correct column mapping for the retrained model
 COLUMN_MAPPING = {
     "hour": "Hour",
-    "temperature": "Temperature(°C)",
-    "humidity": "Humidity(%)",
-    "wind_speed": "Wind speed (m/s)",  # Note the space instead of underscore
-    "visibility": "Visibility (10m)",   # Note the space
-    "solar_radiation": "Solar Radiation (MJ/m2)",  # Note the space
-    "rainfall": "Rainfall(mm)",
-    "snowfall": "Snowfall (cm)",
-    "weekend": "Weekend",  # Not Weekend_Status
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "wind_speed": "WindSpeed",
+    "visibility": "Visibility",
+    "solar_radiation": "SolarRadiation",
+    "rainfall": "Rainfall",
+    "snowfall": "Snowfall",
+    "weekend": "Weekend",
     "holiday_status": "Holiday_status"
 }
 
@@ -82,7 +84,7 @@ def save_last_sequence_number(sequence_number):
         logger.error("Error saving sequence number: %s", str(e))
 
 # Get a new shard iterator
-def get_new_shard_iterator(shard_id, iterator_type="LATEST"):
+def get_new_shard_iterator(shard_id, iterator_type="TRIM_HORIZON"):
     try:
         response = kinesis_client.get_shard_iterator(
             StreamName=STREAM_NAME,
@@ -128,77 +130,14 @@ async def health_check():
 async def reset_sequence():
     return reset_sequence_number()
 
-# Inspect model endpoint
-@app.get("/inspect-model")
-async def inspect_model():
-    """Endpoint to inspect the feature names expected by the model and scaler."""
-    try:
-        # Get the feature names from the scaler
-        feature_names = None
-        try:
-            # Different ways to extract feature names depending on scaler type
-            if hasattr(scaler, 'feature_names_in_'):
-                feature_names = scaler.feature_names_in_.tolist()
-            elif hasattr(scaler, 'get_feature_names_out'):
-                feature_names = scaler.get_feature_names_out().tolist()
-            elif hasattr(scaler, 'get_feature_names'):
-                feature_names = scaler.get_feature_names().tolist()
-            
-            logger.info(f"Feature names from scaler: {feature_names}")
-        except Exception as e:
-            logger.error(f"Error getting feature names from scaler: {str(e)}")
-        
-        # Try to load data frame with empty values to see what columns it expects
-        try:
-            # Create an empty DataFrame with expected columns
-            if feature_names:
-                empty_df = pd.DataFrame(columns=feature_names)
-                empty_row = {col: 0 for col in feature_names}
-                empty_df = pd.DataFrame([empty_row])
-                
-                # Try to transform it
-                scaled = scaler.transform(empty_df)
-                logger.info("Empty dataframe successfully transformed")
-                
-                return {
-                    "success": True,
-                    "feature_names": feature_names,
-                    "num_features": len(feature_names)
-                }
-            else:
-                return {
-                    "success": False,
-                    "error": "Could not determine feature names from scaler"
-                }
-        except Exception as df_error:
-            logger.error(f"Error testing empty DataFrame: {str(df_error)}")
-            import traceback
-            logger.error(traceback.format_exc())
-            
-            return {
-                "success": False,
-                "error": str(df_error),
-                "traceback": traceback.format_exc()
-            }
-            
-    except Exception as e:
-        logger.error(f"General error in inspect-model: {str(e)}")
-        import traceback
-        logger.error(traceback.format_exc())
-        
-        return {
-            "success": False,
-            "error": str(e)
-        }
-
 # Test endpoint to send data directly to Kinesis
 @app.get("/test-kinesis")
-async def test_kinesis(background_tasks: BackgroundTasks):
+async def test_kinesis(background_tasks: BackgroundTasks, temp: float = 20.5):
     try:
         # Create test data similar to what data_ingestion.py would send
         test_data = {
-            "hour": 12,
-            "temperature": 20.5,
+            "hour": datetime.datetime.now().hour,
+            "temperature": temp,  # Use parameter if provided, otherwise default
             "humidity": 65,
             "wind_speed": 3.2,
             "visibility": 10000,
@@ -206,7 +145,9 @@ async def test_kinesis(background_tasks: BackgroundTasks):
             "rainfall": 0,
             "snowfall": 0,
             "weekend": 0,
-            "holiday_status": 0
+            "holiday_status": 0,
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "test_marker": f"test-{datetime.datetime.now().strftime('%H%M%S')}"  # Add a unique marker
         }
         
         # Send to Kinesis in the background
@@ -245,7 +186,7 @@ async def direct_prediction():
     try:
         # Create test data similar to what we'd expect from Kinesis
         test_data = {
-            "hour": 12,
+            "hour": datetime.datetime.now().hour,
             "temperature": 20.5,
             "humidity": 65,
             "wind_speed": 3.2,
@@ -254,14 +195,20 @@ async def direct_prediction():
             "rainfall": 0,
             "snowfall": 0,
             "weekend": 0,
-            "holiday_status": 0
+            "holiday_status": 0,
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
         
         logger.info("Making direct prediction with test data")
         logger.info(f"Test data: {test_data}")
         
+        # Create a copy of data without timestamp for prediction
+        prediction_data = test_data.copy()
+        if "timestamp" in prediction_data:
+            del prediction_data["timestamp"]  # Remove timestamp before creating DataFrame
+        
         # Prepare DataFrame with the CORRECT column names (using mapping)
-        df = pd.DataFrame([test_data])
+        df = pd.DataFrame([prediction_data])
         
         # Rename columns to match what the model expects
         df = df.rename(columns=COLUMN_MAPPING)
@@ -317,7 +264,99 @@ async def direct_prediction():
             "details": str(e)
         }
 
-# Fetch the latest prediction from Kinesis
+# Check Kinesis endpoint for debugging
+@app.get("/check-kinesis")
+async def check_kinesis():
+    """Debug endpoint to check Kinesis stream configuration."""
+    try:
+        # Get stream info
+        response = kinesis_client.describe_stream(StreamName=STREAM_NAME)
+        stream_desc = response["StreamDescription"]
+        
+        # Get all shards
+        shards = stream_desc["Shards"]
+        
+        results = {
+            "stream_name": STREAM_NAME,
+            "stream_status": stream_desc["StreamStatus"],
+            "shard_count": len(shards),
+            "shards": [],
+            "latest_records": []
+        }
+        
+        # Check each shard
+        for shard in shards:
+            shard_id = shard["ShardId"]
+            shard_info = {
+                "shard_id": shard_id,
+                "starting_sequence_number": shard.get("SequenceNumberRange", {}).get("StartingSequenceNumber", "unknown"),
+                "ending_sequence_number": shard.get("SequenceNumberRange", {}).get("EndingSequenceNumber", "open")
+            }
+            results["shards"].append(shard_info)
+            
+            # Get latest record from this shard using TRIM_HORIZON
+            try:
+                # Get records from TRIM_HORIZON
+                shard_iterator = kinesis_client.get_shard_iterator(
+                    StreamName=STREAM_NAME,
+                    ShardId=shard_id,
+                    ShardIteratorType="TRIM_HORIZON"
+                )["ShardIterator"]
+                
+                # Get records
+                records_response = kinesis_client.get_records(
+                    ShardIterator=shard_iterator,
+                    Limit=100
+                )
+                
+                # If records exist, get the most recent one
+                if records_response["Records"]:
+                    # Sort by arrival timestamp
+                    sorted_records = sorted(
+                        records_response["Records"], 
+                        key=lambda r: r["ApproximateArrivalTimestamp"],
+                        reverse=True  # Most recent first
+                    )
+                    
+                    # Get the most recent record
+                    latest_record = sorted_records[0]
+                    record_info = {
+                        "shard_id": shard_id,
+                        "sequence_number": latest_record["SequenceNumber"],
+                        "arrival_time": latest_record["ApproximateArrivalTimestamp"].isoformat(),
+                        "partition_key": latest_record["PartitionKey"]
+                    }
+                    
+                    # Try to decode the data
+                    try:
+                        raw_data = latest_record["Data"]
+                        decoded_data = raw_data.decode("utf-8")
+                        data_json = json.loads(decoded_data)
+                        record_info["temperature"] = data_json.get("temperature", "unknown")
+                        record_info["timestamp"] = data_json.get("timestamp", "unknown")
+                    except Exception as decode_error:
+                        record_info["decode_error"] = str(decode_error)
+                    
+                    results["latest_records"].append(record_info)
+                else:
+                    results["latest_records"].append({
+                        "shard_id": shard_id,
+                        "error": "No records found in this shard"
+                    })
+            except Exception as shard_error:
+                results["latest_records"].append({
+                    "shard_id": shard_id,
+                    "error": str(shard_error)
+                })
+        
+        return results
+    except Exception as e:
+        logger.error(f"Error checking Kinesis: {str(e)}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {"error": str(e)}
+
+# Fetch the latest prediction from Kinesis - FIXED to always get the most recent data
 @app.get("/fetch-prediction")
 async def fetch_latest_prediction():
     try:
@@ -330,126 +369,119 @@ async def fetch_latest_prediction():
         shard_id = response['StreamDescription']['Shards'][0]['ShardId']
         logger.info(f"Found shard ID: {shard_id}")
 
-        # Log all shards for verification
-        all_shards = response['StreamDescription']['Shards']
-        logger.info(f"All shards in stream: {[s['ShardId'] for s in all_shards]}")
+        # Use TRIM_HORIZON to get ALL records
+        logger.info("Using TRIM_HORIZON to get all records")
+        shard_iterator = get_new_shard_iterator(shard_id, "TRIM_HORIZON")
         
-        # Get the last processed sequence number
-        last_sequence_number = get_last_sequence_number()
-        logger.info(f"Last sequence number: {last_sequence_number}")
+        # Fetch records from the stream (up to 100)
+        records_response = kinesis_client.get_records(ShardIterator=shard_iterator, Limit=100)
+        logger.info(f"Retrieved {len(records_response['Records'])} records from stream")
         
-        # Get the shard iterator, handle expired iterator
-        try:
-            if last_sequence_number:
-                logger.info("Using AFTER_SEQUENCE_NUMBER iterator for continuity")
-                shard_iterator = kinesis_client.get_shard_iterator(
-                    StreamName=STREAM_NAME,
-                    ShardId=shard_id,
-                    ShardIteratorType="AFTER_SEQUENCE_NUMBER",
-                    StartingSequenceNumber=last_sequence_number
-                )['ShardIterator']
-            else:
-                logger.info("Using TRIM_HORIZON iterator to get oldest records")
-                shard_iterator = get_new_shard_iterator(shard_id, "TRIM_HORIZON")
-        except kinesis_client.exceptions.ExpiredIteratorException:
-            logger.warning("Shard iterator expired. Regenerating with TRIM_HORIZON.")
-            shard_iterator = get_new_shard_iterator(shard_id, "TRIM_HORIZON")
-
-        # Fetch records from the stream
-        records_response = kinesis_client.get_records(ShardIterator=shard_iterator, Limit=10)
-        logger.info(f"Retrieved {len(records_response['Records'])} records from Kinesis")
-
-        # Handle no records scenario
         if not records_response['Records']:
-            logger.info("No records found with initial iterator, trying TRIM_HORIZON")
-            shard_iterator = get_new_shard_iterator(shard_id, "TRIM_HORIZON")
-            records_response = kinesis_client.get_records(ShardIterator=shard_iterator, Limit=10)
-            logger.info(f"Retrieved {len(records_response['Records'])} records with TRIM_HORIZON")
+            logger.warning("No records found in Kinesis stream")
+            return {"message": "No records found in Kinesis stream"}
             
-            if not records_response['Records']:
-                logger.warning("No records found in Kinesis stream")
-                return {"message": "No records found in Kinesis stream"}
-
-        for record in records_response['Records']:
-            try:
-                # Save the sequence number for next iteration
-                sequence_number = record['SequenceNumber']
-                save_last_sequence_number(sequence_number)
-                logger.info(f"Processing record with sequence number: {sequence_number}")
-
-                # Decode the data
-                raw_data = record['Data']
-                logger.info(f"Raw data type: {type(raw_data)}")
-                
-                try:
-                    # First try direct decoding as UTF-8
-                    if isinstance(raw_data, bytes):
-                        try:
-                            direct_decode = raw_data.decode('utf-8')
-                            logger.info("Successfully decoded data directly as UTF-8")
-                            payload = direct_decode
-                        except UnicodeDecodeError:
-                            # If direct decoding fails, try base64 decoding
-                            logger.warning("Direct UTF-8 decoding failed, trying base64")
-                            try:
-                                # Fix padding if needed
-                                if len(raw_data) % 4 != 0:
-                                    missing_padding = 4 - (len(raw_data) % 4)
-                                    fixed_data = raw_data + (b"=" * missing_padding)
-                                else:
-                                    fixed_data = raw_data
-                                    
-                                base64_decode = base64.b64decode(fixed_data)
-                                payload = base64_decode.decode('utf-8')
-                                logger.info("Successfully decoded data with base64")
-                            except Exception as b64_error:
-                                logger.error(f"Base64 decoding failed: {str(b64_error)}")
-                                continue
-                    else:
-                        # Not bytes, just use as is
-                        payload = raw_data
-                        logger.info("Data wasn't bytes, using as is")
-                        
-                    # Parse the JSON data
-                    data = json.loads(payload)
-                    logger.info(f"Successfully parsed JSON data: {data}")
-                    
-                    # Create DataFrame with the proper column names
-                    df = pd.DataFrame([data])
-                    
-                    # Rename columns to match what the model expects
-                    df = df.rename(columns=COLUMN_MAPPING)
-                    logger.info(f"Renamed columns DataFrame: {df.columns.tolist()}")
-                    
-                    # Scale features
-                    scaled_features = scaler.transform(df)
-                    logger.info("Features scaled successfully")
-
-                    # Predict bike rental count
-                    prediction = model.predict(scaled_features)[0]
-                    logger.info(f"Predicted bike count: {int(prediction)}")
-
-                    return {
-                        "predicted_bike_count": int(prediction),
-                        "features": data,
-                        "sequence_number": sequence_number
-                    }
-                
-                except Exception as process_error:
-                    logger.error(f"Error processing record data: {str(process_error)}")
-                    import traceback
-                    logger.error(traceback.format_exc())
-                    continue
-
-            except Exception as record_error:
-                logger.error(f"Error processing record: {str(record_error)}")
-                import traceback
-                logger.error(traceback.format_exc())
-                continue
-
-        logger.info("No valid prediction could be made from available records")
-        return {"message": "Processed all available records but couldn't make a valid prediction"}
+        # Sort records by arrival timestamp to find the most recent one
+        sorted_records = sorted(
+            records_response['Records'], 
+            key=lambda r: r['ApproximateArrivalTimestamp'], 
+            reverse=True  # Most recent first
+        )
         
+        # Get the most recent record
+        record = sorted_records[0]
+        arrival_time = record['ApproximateArrivalTimestamp'].isoformat()
+        logger.info(f"Using most recent record with arrival time: {arrival_time}")
+        
+        # Get the sequence number
+        sequence_number = record['SequenceNumber']
+        logger.info(f"Processing record with sequence number: {sequence_number}")
+
+        # Decode the data
+        raw_data = record['Data']
+        logger.info(f"Raw data type: {type(raw_data)}")
+        
+        try:
+            # First try direct decoding as UTF-8
+            if isinstance(raw_data, bytes):
+                try:
+                    direct_decode = raw_data.decode('utf-8')
+                    logger.info("Successfully decoded data directly as UTF-8")
+                    payload = direct_decode
+                except UnicodeDecodeError:
+                    # If direct decoding fails, try base64 decoding
+                    logger.warning("Direct UTF-8 decoding failed, trying base64")
+                    try:
+                        # Fix padding if needed
+                        if len(raw_data) % 4 != 0:
+                            missing_padding = 4 - (len(raw_data) % 4)
+                            fixed_data = raw_data + (b"=" * missing_padding)
+                        else:
+                            fixed_data = raw_data
+                            
+                        base64_decode = base64.b64decode(fixed_data)
+                        payload = base64_decode.decode('utf-8')
+                        logger.info("Successfully decoded data with base64")
+                    except Exception as b64_error:
+                        logger.error(f"Base64 decoding failed: {str(b64_error)}")
+                        return {"message": "Error decoding data from Kinesis"}
+            else:
+                # Not bytes, just use as is
+                payload = raw_data
+                logger.info("Data wasn't bytes, using as is")
+                
+            # Parse the JSON data
+            data = json.loads(payload)
+            logger.info(f"Successfully parsed JSON data: {data}")
+            
+            # Store timestamp or create one if it doesn't exist
+            now = datetime.datetime.now()
+            if "timestamp" not in data:
+                timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
+                data["timestamp"] = timestamp
+                logger.info("Added timestamp to data")
+            else:
+                timestamp = data["timestamp"]
+            
+            # Create a copy of data without timestamp for prediction
+            prediction_data = data.copy()
+            if "timestamp" in prediction_data:
+                del prediction_data["timestamp"]  # Remove timestamp before creating DataFrame
+            if "timezone" in prediction_data:
+                del prediction_data["timezone"]  # Remove timezone before creating DataFrame
+            if "test_marker" in prediction_data:
+                del prediction_data["test_marker"]  # Remove test marker if present
+            
+            # Create DataFrame with the proper column names
+            df = pd.DataFrame([prediction_data])
+            
+            # Rename columns to match what the retrained model expects
+            df = df.rename(columns=COLUMN_MAPPING)
+            logger.info(f"Renamed columns DataFrame: {df.columns.tolist()}")
+            
+            # Scale features
+            scaled_features = scaler.transform(df)
+            logger.info("Features scaled successfully")
+
+            # Predict bike rental count
+            prediction = model.predict(scaled_features)[0]
+            logger.info(f"Predicted bike count: {int(prediction)}")
+
+            # Return the full response with additional metadata
+            return {
+                "predicted_bike_count": int(prediction),
+                "features": data,  # Include original data with timestamp
+                "sequence_number": sequence_number,
+                "timestamp": timestamp,
+                "arrival_time": arrival_time
+            }
+        
+        except Exception as process_error:
+            logger.error(f"Error processing record data: {str(process_error)}")
+            import traceback
+            logger.error(traceback.format_exc())
+            return {"message": f"Error processing data: {str(process_error)}"}
+            
     except Exception as e:
         logger.error(f"Error in fetch-prediction: {str(e)}")
         import traceback
