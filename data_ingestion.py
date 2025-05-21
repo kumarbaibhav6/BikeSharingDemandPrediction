@@ -50,9 +50,6 @@ def fetch_weather():
         response = requests.get(url)
         data = response.json()
 
-        # Log full API response for debugging
-        print("API Response:", data)
-
         # Check for valid response
         if response.status_code != 200 or "main" not in data:
             print(f"Invalid API response: {data.get('message', 'No data')}")
@@ -67,6 +64,9 @@ def fetch_weather():
         is_weekend = 1 if datetime.today().weekday() >= 5 else 0
         is_holiday = is_korean_holiday()
 
+        # Current timestamp for the data
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         # Prepare weather data
         weather = {
             "hour": hour,
@@ -78,11 +78,16 @@ def fetch_weather():
             "rainfall": data.get("rain", {}).get("1h", 0),  # mm
             "snowfall": data.get("snow", {}).get("1h", 0) / 10,  # Convert mm to cm
             "weekend": is_weekend,
-            "holiday_status": is_holiday
+            "holiday_status": is_holiday,
+            "timestamp": current_time  # Add timestamp to the data
         }
         
         # Validate data
-        if all(key in weather for key in ["hour", "temperature", "humidity", "wind_speed", "visibility", "solar_radiation", "rainfall", "snowfall", "weekend", "holiday_status"]):
+        required_keys = ["hour", "temperature", "humidity", "wind_speed", "visibility", 
+                         "solar_radiation", "rainfall", "snowfall", "weekend", 
+                         "holiday_status", "timestamp"]
+        
+        if all(key in weather for key in required_keys):
             print(f"Weather data fetched: {weather}")
             return weather
         else:
@@ -101,7 +106,6 @@ def send_to_kinesis(data):
         
         # Print JSON before encoding
         print(f"Payload before encoding: {payload}")
-        print(f"Payload type: {type(payload)}")
         
         # Send to Kinesis without base64 encoding for simplicity
         response = kinesis_client.put_record(
@@ -120,6 +124,8 @@ def send_to_kinesis(data):
                 f.write(response['SequenceNumber'])
                 f.write("\n")
                 f.write(datetime.now().isoformat())
+                f.write("\n")
+                f.write(f"Data timestamp: {data.get('timestamp', 'Not available')}")
         else:
             print("WARNING: No sequence number in response")
             
@@ -132,6 +138,7 @@ def send_to_kinesis(data):
 def send_test_data():
     """Send a single test data point to Kinesis."""
     print("Sending test data point...")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     test_data = {
         "hour": datetime.now().hour,
         "temperature": 22.5,
@@ -142,7 +149,8 @@ def send_test_data():
         "rainfall": 0,
         "snowfall": 0,
         "weekend": 1 if datetime.today().weekday() >= 5 else 0,
-        "holiday_status": 0
+        "holiday_status": 0,
+        "timestamp": current_time  # Add timestamp to test data
     }
     send_to_kinesis(test_data)
     print("Test data sent.")
@@ -155,15 +163,15 @@ def run_data_ingestion():
             if weather_data:
                 send_to_kinesis(weather_data)
             else:
-                print("No data fetched, retrying in 15 minutes.")
+                print("No data fetched, retrying in 1 minute.")
         except Exception as e:
             print(f"Error during data ingestion: {e}")
             import traceback
             print(traceback.format_exc())
         
-        # Sleep for 15 minutes
-        print(f"Sleeping for 15 minutes. Next update at {(datetime.now() + timedelta(minutes=15)).strftime('%H:%M:%S')}")
-        time.sleep(900)
+        # Sleep for 1 minute
+        print(f"Sleeping for 1 minute. Next update at {(datetime.now() + timedelta(minutes=1)).strftime('%H:%M:%S')}")
+        time.sleep(60)
 
 if __name__ == "__main__":
     # Check for test mode
