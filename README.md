@@ -29,7 +29,7 @@ A bike rental company faces significant challenges in inventory management:
 
 This project delivers a comprehensive machine learning solution that:
 - 🔍 Analyzes historical rental patterns and weather correlations
-- 🤖 Trains multiple ML models to predict demand with 90% accuracy
+- 🤖 Trains and compares multiple regression models; the best (Random Forest) explains ~90% of demand variance (R² ≈ 0.90)
 - 🌤️ Integrates real-time weather data via OpenWeatherAPI
 - 📊 Provides interactive dashboards for business insights
 - ⚡ Serves predictions through a scalable FastAPI deployment
